@@ -1,0 +1,6 @@
+c:\users\ee1500\documents\visual studio 2017\Projects\ConsoleApp23\ConsoleApp23\obj\Debug\ConsoleApp23.csprojResolveAssemblyReference.cache
+c:\users\ee1500\documents\visual studio 2017\Projects\ConsoleApp23\ConsoleApp23\bin\Debug\ConsoleApp23.exe.config
+c:\users\ee1500\documents\visual studio 2017\Projects\ConsoleApp23\ConsoleApp23\bin\Debug\ConsoleApp23.exe
+c:\users\ee1500\documents\visual studio 2017\Projects\ConsoleApp23\ConsoleApp23\bin\Debug\ConsoleApp23.pdb
+c:\users\ee1500\documents\visual studio 2017\Projects\ConsoleApp23\ConsoleApp23\obj\Debug\ConsoleApp23.exe
+c:\users\ee1500\documents\visual studio 2017\Projects\ConsoleApp23\ConsoleApp23\obj\Debug\ConsoleApp23.pdb
