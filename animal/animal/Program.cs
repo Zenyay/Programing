@@ -24,7 +24,22 @@ namespace animal
             dog.playFetch();
             dog.getDockedTail();
 
+            RussianBlue rb = new RussianBlue("Peter");
+            rb.printName();
+            rb.makeSound();
+            rb.beHappy();
 
+            OrangeTabby ot = new OrangeTabby("Clair");
+            ot.printName();
+            ot.makeSound();
+            ot.beHappy();
+            ot.seeLaser();
+
+            Garfield gar = new Garfield();
+            gar.printName();
+            gar.makeSound();
+            gar.beHappy();
+            gar.seeLaser();
 
             Console.ReadLine();
         }
