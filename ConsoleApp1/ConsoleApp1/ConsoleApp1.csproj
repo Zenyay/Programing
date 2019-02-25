@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{7F976B9A-02BE-4351-92C6-CB4DB7292A25}</ProjectGuid>
+    <ProjectGuid>{B53C339E-64CA-4641-8DE1-CED64D4C3C4E}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>list</RootNamespace>
-    <AssemblyName>list</AssemblyName>
+    <RootNamespace>ConsoleApp1</RootNamespace>
+    <AssemblyName>ConsoleApp1</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,10 +42,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="GradeBook.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Section.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
