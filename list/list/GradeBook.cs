@@ -12,7 +12,7 @@ namespace list
         //string SectionName;
         
         ///constructor
-        //public gradebook(Section section = new Section();)
+        //public Gradebook()
 
         ///methods
         //changeSection(string sectionName);// sets the currently active section

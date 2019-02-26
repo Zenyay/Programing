@@ -9,6 +9,14 @@ namespace list
     class Section
     {
         ///properties
+       /* List<string> SFname = new List<string>();
+        List<string> SLname = new List<string>();
+        List<string> SUname = new List<string>();
+        List<long> phone = new List<long>();
+
+        students kid = new students(); */
+        
+
         //string SectionName;
         //string SFname;//first name
         //string SLname;//last name
@@ -21,8 +29,8 @@ namespace list
         ///constructor
         //public Section(string sectionName)
 
+
         ///methods
-        //boolean AddStudent(String firstName, String lastName, string username, long phoneNumber); //creates a new student
         //boolean setScore(String username, String assignmentName, int pointsEarned)
         //double getOverallScore(String username) //returns overall score as a percentage for specified student
         //double getOverallScoreAvg(String sectionName) //returns overall score as a percentage for a section
@@ -34,7 +42,7 @@ namespace list
         //boolean markAbsent(String username) //adds 1 to the students absent count
         //int getTardyCount(String username)  //returns number of times student was tardy
         //int getAbsentCount(String username) //returns number of times student was absent
-          
+
 
     }
 }
