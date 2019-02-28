@@ -15,6 +15,7 @@ namespace list
         //public Gradebook()
 
         ///methods
+        //Menu used for using the gradebook,not class
         //changeSection(string sectionName);// sets the currently active section
         //boolean addSection(String sectionName)//creates a new section if there are not already 6 sections and sectionName isnt already used
   }

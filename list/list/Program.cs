@@ -10,9 +10,7 @@ namespace list
     {
         static void Main(string[] args)
         {
-            Section one = new Section();
-
-
+            //menu
 
             Console.ReadLine();
         }
