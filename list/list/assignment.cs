@@ -8,6 +8,10 @@ namespace list
 {
     class assignment
     {
+        //name
+        //pts possibl
+        //ptsearned
+
         //boolean addAssignmentToStudent(String username, String assignmentName, int pointsPossible)
         //boolean addAssignmentToSection(String assignmentName, int pointsPossible)
         //double getOverallScore(String username) //returns overall score as a percentage for specified student

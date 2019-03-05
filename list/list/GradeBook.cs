@@ -10,6 +10,8 @@ namespace list
     {
         ///properties
         //string SectionName;
+        //array of sections
+        //numSections
         
         ///constructor
         //public Gradebook()
