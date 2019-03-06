@@ -12,6 +12,14 @@ namespace list
         {
             //menu
 
+            student st = new student();
+            st.addStudent("Able", "che", "AC", 5177889876);
+            st.giveTardies("AC");
+            st.giveTardies("AC");
+            st.getTardies("AC");
+            st.giveAbsent("AC");
+            st.getAbsent("ag");
+
             Console.ReadLine();
         }
     }

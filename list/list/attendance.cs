@@ -8,9 +8,24 @@ namespace list
 {
     class attendance
     {
-        //boolean markTardy(String username) //adds 1 to the students tardy count
-        //boolean markAbsent(String username) //adds 1 to the students absent count
-        //int getTardyCount(String username)  //returns number of times student was tardy
-        //int getAbsentCount(String username) //returns number of times student was absent
+        int tardies=0;
+        int absent=0;
+
+        public void markTardy(string username) //adds 1 to the students tardy count
+        {
+            tardies++;
+        }
+        public void markAbsent(string username) //adds 1 to the students absent count
+        {
+            absent++;
+        }
+        public int GetTardyCount(string username)  //returns number of times student was tardy
+        {
+            return tardies;
+        }
+        public int getAbsentCount(String username) //returns number of times student was absent
+        {
+            return absent;
+        }
     }
 }
