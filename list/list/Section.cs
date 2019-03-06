@@ -9,6 +9,7 @@ namespace list
     class Section
     {
         ///properties
+
         List<student> students = new List<student>();        
         //sectionname
 
