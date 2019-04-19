@@ -138,7 +138,7 @@ public class Gradebook
             return false;
         }
         //add assignment
-        return curSection.addAssignmentToSection(assignmentName, pointsPossible);
+        return curSection.addAssignmentToSection(assignmentName, pointsPossible);//fixme
     }
 
     //sets the pointsEarned property for the student specified in the current section for the assignment specified

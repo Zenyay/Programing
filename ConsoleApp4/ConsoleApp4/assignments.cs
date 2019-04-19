@@ -15,10 +15,9 @@ class assignments
         this.assignmentName = assignmentName;
     }
 
-    public void addAssignment()
+    public string getAssignmentName()
     {
-        
-
+        return assignmentName;
     }
 }
 

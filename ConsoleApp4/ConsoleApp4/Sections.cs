@@ -95,16 +95,15 @@ public class Sections
 
     public bool addAssignmentToSection(string assignmentName, int pointsPossible)
     {
+        students assignment;
+        int curassignment = getAssignmentIndexByAssignmentName(assignmentName);
         //find out if students already have assignments
-        for (int k = 0; k < Students.Count; k++)//checks for repeats
+        if (curassignment != -1)
         {
-            if (assignmentName.Equals(Students[k]))
-            {
-                return false;
-            }
+            return false;
         }
         //add assignment to all students
-        return true;
+        return assignment.setAssignmentSection(assignmentName,pointsPossible);//fixme
     }
 
     ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -141,5 +140,20 @@ public class Sections
         return Students[index];
     }
 
-}
+    //returns -1 if no section was found with the given sectionname
+    //otherwise returns the index of the section with matching name
+    public int getAssignmentIndexByAssignmentName(string assignmentName)
+    {
+        int index = 0;
+        while (index < Students.Count)
+        {
+            if (assignmentName.Equals(Students[index].getAssignmentName()))
+            {
+                return index;
+            }
+            index++;
+        }
+        return -1;
+    }
 
+}

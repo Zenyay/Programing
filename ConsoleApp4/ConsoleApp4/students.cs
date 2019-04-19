@@ -49,4 +49,31 @@ public class students
         return daysAbsent;
     }
 
+    public string getAssignmentName()
+    {
+        return getAssignmentName();
+    }
+
+    public void setAssignmentSection(string assignmentName, int pointsPossible)
+    {
+
+    }
+    /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    
+    //returns -1 if no section was found with the given sectionname
+    //otherwise returns the index of the section with matching name
+    public int getAssignmentIndexByAssignmentName(string assignmentName)
+    {
+        int index = 0;
+        while (index < Assignments.Count)
+        {
+            if (assignmentName.Equals(Assignments[index].getAssignmentName()))
+            {
+                return index;
+            }
+            index++;
+        }
+        return -1;
+    }
 }
